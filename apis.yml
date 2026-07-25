@@ -1,8 +1,24 @@
 aid: corvus-travelers
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corvus-travelers.png
 name: Corvus (Travelers)
-description: 'Corvus (Travelers) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Corvus by Travelers is a cyber-insurance provider offering Smart Cyber Insurance and Smart
+  Tech E&O coverage alongside data-driven cyber risk management. Now part of Travelers, Corvus underwrites
+  cyber policies using threat intelligence and AI-driven data, and pairs coverage with continuous threat
+  monitoring, vulnerability detection, a cyber risk dashboard, and 24/7 incident response and claims support.
+  The business is broker-focused, distributing through appointed brokers via its Broker Hub and broker
+  sign-in portal. Corvus was surfaced as a portfolio company of Bain Capital Ventures. As of this
+  enrichment pass the company publishes no public developer API, API documentation, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/corvus-travelers/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Insurance
+- Cyber Insurance
+- Cybersecurity
+- Risk Management
+- Insurtech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.corvusinsurance.com/
+- type: Blog
+  url: https://www.corvusinsurance.com/resources
+- type: Support
+  url: https://www.corvusinsurance.com/contact-us
+- type: Login
+  url: https://travelers.corvusinsurance.com/
+- type: TermsOfService
+  url: https://www.travelers.com/about-travelers/legal
+- type: PrivacyPolicy
+  url: https://www.travelers.com/about-travelers/privacy-statements
+- type: DomainSecurity
+  url: security/corvus-travelers-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
